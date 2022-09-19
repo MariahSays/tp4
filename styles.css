@@ -1,3 +1,10 @@
+/* header starts here */
+body{
+  background-color: #FFCC99;
+  padding: 0;
+  margin: 0;
+} 
+
 div#header {
   width: 100%;
   height: 30vw;
@@ -9,14 +16,6 @@ div#header {
   background-size: cover;
   background-position: left center;
 }
-
-
-body{
-  background-color: #FFCC99;
-  padding: 0;
-  margin: 0;
-}
-
 h1 {
   font-family: 'Anton', sans-serif;
   font-size: 200%;
@@ -24,9 +23,30 @@ h1 {
   padding: 0;
   margin-top: 0;
   margin-left:10px;
+} 
+
+/* Body of page content starts here */
+
+#gridContainer{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+#ingredients{
+  margin: 5px;
+  border-right: double 2px #5971BC;
+  }
+#equipment{
+  margin: 5px; 
 }
 
+#directions{
+  margin: 5px;
+  border-left: double 2px #5971BC;
+}
+/* added from my grid set codepen */
+
 h4 {
+  text-align: center;
   margin-bottom: 0;
   font-family: 'Playfair Display', serif;
   border-bottom: double 2px #5971BC;
