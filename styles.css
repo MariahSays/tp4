@@ -25,6 +25,22 @@ h1 {
   margin-left:10px;
 } 
 
+#time{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: #5971BC;
+  margin: 20px;
+  text-align: center;
+  list-style-type: none;
+}
+
+#banner-text{
+  font-size: 150%;
+  text-align: center;
+  margin: 20px;
+}
 /* Body of page content starts here */
 
 #gridContainer{
@@ -81,3 +97,28 @@ mark{
   font-size: 9px;
   font-style: italic;
 }
+
+/* media for mobile turns lists into 1 column (3 rows) removes borders*/
+  @media screen and (orientation: portrait) {
+    #gridContainer{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: none;
+  }
+    #ingredients, #directions{
+      border-right: none;
+      border-left: none;
+    }
+}
+/* media for mobile turns lists into 1 column (3 rows) removes borders, changes header position, and time list orientation*/
+  @media screen and (max-width: 575px) {
+    #time{
+    display: grid;
+    grid-template-columns: none;
+    list-style-type: circle;
+    text-align: left;
+   }
+    h1{
+      text-align: center;
+    }
+  }
