@@ -1,0 +1,63 @@
+div#header {
+  width: 100%;
+  height: 30vw;
+  text-align: left;
+  vertical-align:text-bottom;
+  padding: 0;
+  margin:0;
+  background-image: url(https://images.pexels.com/photos/3763792/pexels-photo-3763792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-position: left center;
+}
+
+
+body{
+  background-color: #FFCC99;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 200%;
+  text-shadow: 2px 2px 6px white;
+  padding: 0;
+  margin-top: 0;
+  margin-left:10px;
+}
+
+h4 {
+  margin-bottom: 0;
+  font-family: 'Playfair Display', serif;
+  border-bottom: double 2px #5971BC;
+}
+
+p.sub {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+}
+
+ul, ol {
+margin-top: 0px;
+}
+
+li{
+  font-family: 'Playfair Display', serif;
+  font-size: 110%;
+}
+
+span.emphasize {
+  font-style: italic;
+  font-weight: bold;
+}
+
+mark{
+  background-color: #FCEC88;
+}
+.copyright {
+  font-family: Arial;
+  font-size: 9px;
+  font-style: italic;
+}
